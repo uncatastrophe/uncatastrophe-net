@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="../styles/hack.css">
+	<link rel="stylesheet" href="../styles/dark.css">
+    <title>uncatastrophe.net</title>
+	<style>
+	.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+
+}
+
+
+.sidebar a.active {
+  background-color: #e53935;
+  color: white;
+}
+
+.sidebar a.subcat {
+  color: white;
+  padding: 8px;
+  padding-left: 50px;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+	</style>
+  </head>
+  <body class="hack dark">
+	<div class = "grid">
+	  <aside class = "cell -3of12">
+		<nav class="side-nav__component" role="navigation">
+			<div class="sidebar">
+				<a href="">home</a>
+				<a class="active" href="/startrek">star trek watching guide</a>
+				<a class="subcat" href="/startrek/seasons/s1">season 1</a>
+				<a class="subcat" href="/startrek/seasons/s2">season 2</a>
+				<a class="subcat" href="/startrek/seasons/s3">season 3</a>
+				<a class="subcat" href="/startrek/seasons/s4">season 4</a>
+				<a class="subcat" href="/startrek/seasons/s5">season 5</a>
+				<a class="subcat" href="/startrek/seasons/s6">season 6</a>
+				<a class="subcat" href="/startrek/seasons/s7">season 7</a>
+				<a href="/movies">movies</a></li>
+				<a href="/blog">blog</a>
+			</div>
+		</nav>
+	</aside>
+	<main class="cell -9of12" role ="main" style="max-width:70rem">
+	<h1>uncatastrophe.net
+	</h1>
+	<img src="../images/logo.png" alt="Star Trek: TNG Logo" class="center" style="width:300px;height:146px;vertical-align:top;">
+	<p>Star Trek: The Next Generation is one of the greatest pieces of American television media. Or, at least it would be, without all the horrible episodes the show has suffered.
+	Due to constantly changing writing staff, quality can vary wildly from episode to episode. Fortunately, since there is no overarching story, one can skip an episode without missing anything important. It is for this reason that I have put together a watching guide of TNG, so a first-time
+	viewer doesn't need to slog through the myriad of weak stories. I suffer, so you don't have to.</p>
+	<p>Of course, a lot of this can be subjective. I have written my thoughts on each episode and why I think it deserves the rating I have given it, so you can determine if my biases
+	are unfair, and perhaps you may enjoy an episode I did not, or skip an episode that I viewed favorably. Plus, being an avid Star Trek fan and critic, I am more than happy to write
+	my thoughts on it. :3</p>
+	<div class="btn-group">
+	  <button class="btn btn-error">STRONG SKIP</button>
+	  <button class="btn btn-error btn-ghost">SKIP</button>
+	  <button class="btn btn-success btn-ghost">WATCH</button>
+	  <button class="btn btn-success">STRONG WATCH</button>
+	</div>
+	<p>My rating system for each episode is shown above.</p>
+	<p>A STRONG SKIP means that an episode is a complete garbage fire, with very little to offer. I do not recommend watching these episodes, ever.</p>
+	<p>A SKIP means that an episode is not particularly strong, and can be skipped.</p>
+	<p>A WATCH means that an episode is good, and I recommend viewing.</p>
+	<p>A STRONG WATCH means that an episode is exceptional, displaying the very best characteristics of Star Trek. These episodes are essential.</p>
+	</main>
+	</div>
+  </body>
+</html> 

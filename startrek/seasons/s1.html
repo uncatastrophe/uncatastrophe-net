@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="../../styles/hack.css">
+	<link rel="stylesheet" href="../../styles/dark.css">
+    <title>uncatastrophe.net</title>
+	<style>
+	.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+
+}
+
+
+.sidebar a.active {
+  background-color: #e53935;
+  color: white;
+}
+
+.sidebar a.subcat {
+  color: white;
+  padding: 8px;
+  padding-left: 50px;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+	</style>
+  </head>
+  <body class="hack dark">
+	<div class = "grid">
+	  <aside class = "cell -3of12">
+		<nav class="side-nav__component" role="navigation">
+			<div class="sidebar">
+				<a href="">home</a>
+				<a class="active" href="uncatastrophe.net/startrek">star trek watching guide</a>
+				<a class="active subcat" href="/startrek/s1">season 1</a>
+				<a class="subcat" href="uncatastrophe.net/startrek/s2">season 2</a>
+				<a class="subcat" href="uncatastrophe.net/startrek/s3">season 3</a>
+				<a class="subcat" href="uncatastrophe.net/startrek/s4">season 4</a>
+				<a class="subcat" href="uncatastrophe.net/startrek/s5">season 5</a>
+				<a class="subcat" href="uncatastrophe.net/startrek/s6">season 6</a>
+				<a class="subcat" href="uncatastrophe.net/startrek/s7">season 7</a>
+				<a href="uncatastrophe.net/movies">movies</a></li>
+				<a href="uncatastrophe.net/blog">blog</a>
+			</div>
+		</nav>
+	</aside>
+	<main class="cell -9of12" role ="main" style="max-width:70rem">
+	<h1>uncatastrophe.net
+	</h1>
+	<p>Well, I actually started my current rewatch from Season 2, so I don't actually have Season 1 fresh on the brain! Check out Season 2 and Season 3 to see full reviews. I will be coming back to this season after I finish Season 7.</p>
+	</main>
+	</div>
+  </body>
+</html> 
