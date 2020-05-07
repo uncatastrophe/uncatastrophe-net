@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="../../styles/hack.css">
+	<link rel="stylesheet" href="../../styles/dark.css">
+    <title>uncatastrophe.net</title>
+	<style>
+	.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+
+}
+
+
+.sidebar a.active {
+  background-color: #e53935;
+  color: white;
+}
+
+.sidebar a.subcat {
+  color: white;
+  padding: 8px;
+  padding-left: 50px;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+img {
+	width: 243px;
+	height: 180px;
+	vertical-align:top;
+}
+p {
+	display: inline-block;
+}
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+	</style>
+  </head>
+  <body class="hack dark">
+	<div class = "grid">
+	  <aside class = "cell -3of12">
+		<nav class="side-nav__component" role="navigation">
+			<div class="sidebar">
+				<a href="">home</a>
+				<a class="active" href="uncatastrophe.net/startrek">star trek watching guide</a>
+				<a class="subcat" href="/startrek/s1">season 1</a>
+				<a class="active subcat" href="uncatastrophe.net/startrek/s2">season 2</a>
+				<a class="subcat" href="uncatastrophe.net/startrek/s3">season 3</a>
+				<a class="subcat" href="uncatastrophe.net/startrek/s4">season 4</a>
+				<a class="subcat" href="uncatastrophe.net/startrek/s5">season 5</a>
+				<a class="subcat" href="uncatastrophe.net/startrek/s6">season 6</a>
+				<a class="subcat" href="uncatastrophe.net/startrek/s7">season 7</a>
+				<a href="uncatastrophe.net/movies">movies</a></li>
+				<a href="uncatastrophe.net/blog">blog</a>
+			</div>
+		</nav>
+	</aside>
+	<main class="cell -9of12" role ="main" style="max-width:70rem">
+	<h1>uncatastrophe.net
+	</h1>
+	<h2>Season 2</h2>
+	<h3>S2E05 - Loud As A Whisper</h3>
+	<img src="./s2img/s2e5.jpg" alt="S2E5">
+	<p>This one is about a legendary peace negotiator that has learned to communicate in a very unusual way. It's pretty good! I really love the implementation of Riva's language, and his 'friends' remind me of Greek and Rennaissance figures. The dialogue is a little stilted and some scenes are awkward, but overall a pleasant watch.</p>
+	<p>VERDICT:</p>
+	<button class="btn btn-success btn-ghost">WATCH</button>
+	
+	<h3>S2E06 - The Schizoid Man</h3>
+	<img src="./s2img/s2e6.jpg" alt="S2E6">
+	<p>Unfortunately nowhere near as cool as the King Crimson song. Dr. Graves puts his conciousness in Data's. You watch the setup and immediately predict the rest of the episode. Tons of redundant dialogue. "I'm an old man and I am a complete asshole! I also hate women! I am also an alien-racist! My function is to be an asshole!" This one is bad, folks.</p>
+	<p>VERDICT:</p>
+	<button class="btn btn-error">STRONG SKIP</button>
+	
+	<h3>S2E07 - Unnatural Selection</h3>
+	<img src="./s2img/s2e7.jpg" alt="S2E6">
+	<p>An episode focused on Dr. Pulaski. She contracts some kind of disease that makes her old, a bunch of boring character dialogue happens, and the episode is resolved through some contrived biological trick. Not terrible, but pretty hard to sit through. Worth a watch if you like Dr. Pulaski.</p>
+	<p>VERDICT:</p>
+	<button class="btn btn-error btn-ghost">SKIP</button>
+	
+	<h3>S2E08 - A Matter of Honor</h3>
+	<img src="./s2img/s2e8.jpg" alt="S2E6">
+	<p>THIS EPISODE OWNS SO HARD!!!! Riker becomes a transfer to a Klingon vessel, and must adapt quickly. Tons of really cool exploration into Klingon society, and tons of sweet exploits by the Commander. Really engaging stuff, and the resolution to the episode left me grinning like an idiot. One of the more exciting episodes.</p>
+	<p>VERDICT:</p>
+	<button class="btn btn-success">STRONG WATCH</button>
+	
+	<h3>S2E09 - The Measure of a Man</h3>
+	<img src="./s2img/s2e9.jpg" alt="S2E6">
+	<p>One of the best Data episodes. Data is put on trial to determine if he is property or not. An episode almost entirely comprised of dialogue, and interesting the whole way through. Maybe it gets a little preachy with its message, but it doesn't bother me too much. Plus, the presiding judge being an old fling of Picard's is actually a good subplot.</p>
+	<p>VERDICT:</p>
+	<button class="btn btn-success">STRONG WATCH</button>
+	
+	<h3>S2E10 - The Dauphin</h3>
+	<img src="./s2img/s2e10.jpg" alt="S2E6">
+	<p>Wil Wheaton is a terrible actor. This episode features Wesley as he courts some alien girl. Tons of weird plot contrivances ensue. Would be irredeemable if it wasn't for the fun sequence of scenes where Wesley asks the crew about how to pick up girls. Riker flirting with Guinan is a pretty funny scene if you can find it on Youtube. Overall, though, pretty painful.</p>
+	<p>VERDICT:</p>
+	<button class="btn btn-error btn-ghost">SKIP</button>
+	</div>
+  </body>
+</html> 
